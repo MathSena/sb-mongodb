@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://test:test@playlistapi.qieckfa.mongodb.net/playlistApi?retryWrites=true&w=majority
+  batch:
+    jdbc:
+      initialize-schema: always
+    job:
+      enabled: false
